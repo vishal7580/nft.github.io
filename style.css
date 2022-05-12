@@ -1,0 +1,148 @@
+body
+ {
+      font-size: 18px; text-align: center;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 400;
+      margin: 0;
+      
+
+ }
+   /*--------------------------TEXT-------------- */
+      h2  {
+            color: white;
+            text-align: left;
+            padding-left: 8%;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        p{
+            color: hsl(215, 51%, 70%);
+            text-align: left;
+            padding-left: 8%;
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-weight: 300;
+           
+        }
+       
+        .eth{
+            color: hsl(178, 100%, 50%);
+            text-align: left;
+            padding-right: 31%;
+
+        }
+        
+        .clock{
+            color: grey;
+           
+
+        }
+        .eth-img{
+            position: relative;
+            top: 6px;
+            left: -2px;
+            width: 14px;
+        }
+        .clock-img{
+            position: relative;
+            top: 2.7px;
+            left: -2px;
+            width: 19px;
+        }
+
+        .vishal-img{
+            width: 9%;
+            border-radius: 20px;
+            box-shadow: 0 0 0 2px white;
+            margin-right: 20px;
+        }
+
+        /*****************ICON VIEW********************/
+        .view{
+            position: absolute;
+            width: 340px;
+            height: 340px;
+            background-color: cyan;
+            position: absolute;
+            top: 32px;
+            left: 30px;
+            opacity: 0;
+            transition: opacity 0.6s;
+            border-radius: 15px;
+            
+        }
+
+        .view:hover{
+            opacity: 0.6;
+            
+        }
+        
+        .icon-view{
+            position: absolute;
+            top: 145px;
+            left: 146px;
+            width: 50px;
+         
+        }
+      
+        /*************************************************/
+        .copyright{
+            color: hsl(215, 51%, 70%);           
+            font-size: 1rem;
+           
+            
+
+        }
+        .l{
+            position: relative;
+            bottom: 11px;
+        }
+        .vj{
+            color: white;
+            margin-right: 100px;
+        }
+        .vj:hover {
+            color: hsl(178, 100%, 50%);
+        }
+       h2:hover{
+           color: hsl(178, 100%, 50%);
+          
+        }
+      
+       
+ .back3{
+    background-color: #0d1a2d;
+    width: 100%;
+    height: 1000px;
+    margin: 0;
+    }
+
+    
+    .box{
+        width: 400px;
+        height: 680px;
+    margin: 0 auto 0;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    position: relative;
+    top: 150px;
+    box-shadow: 0 3em 1em 2em #0c1729, 0 2em 0.5em 4em #0c192c;
+    }
+
+    .img {
+        width: 340px;
+        height: 340px;
+        margin: 34px auto 10px;
+        border-radius: 15px;
+    }
+    .line {
+        width: 85%;
+        color: hsl(215, 32%, 27%);
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        border: none;
+         border-top: 3px solid hsl(215, 32%, 27%);
+         
+    
+    }
